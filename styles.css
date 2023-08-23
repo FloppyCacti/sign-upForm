@@ -1,46 +1,6 @@
 body{
     height: 100vh;
-}
-
-.content{
+    margin: 0px;
+    background-color: rgb(231, 231, 231);
     display: flex;
-}
-
-.image{
-    max-height: 100vh;
-    max-width: 100%;
-}
-
-.right{
-    padding-left: 3%;
-}
-
-.signUp{
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.firstName,
-.lastName,
-.email,
-.password,
-.confirmPwd,
-.phone-number{
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 calc(50% - 10px);
-}
-
-.form-bottom{
-    margin: 20px 0px;
-}
-
-.logIn{
-    display: flex;
-    gap: 5px;
-}
-
-.logIn > p,a{
-    margin: 16px 0px;
 }
