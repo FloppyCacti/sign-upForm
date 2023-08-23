@@ -40,3 +40,18 @@ body{
     height: calc(var(--logo-size) + 50px);
     top: -775px;
 }
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightTop,
+.rightMiddle,
+.rightBottom{
+    flex: 1;
+}
+
+.rightMiddle{
+    background-color: white;
+}
