@@ -54,6 +54,19 @@
                         <input type="password" name="confirm_password" id="confirm_password" required>
                     </div>
                 </form>
+
+                <script>
+                    document.getElementById('signUp').addEventListener('submit', function(event) {
+                      const password = document.getElementById('password').value;
+                      const confirmPassword = document.getElementById('confirm_password').value;
+                  
+                      if (password !== confirmPassword) {
+                        event.preventDefault();
+                        alert("Passwords do not match. Please make sure both passwords are the same.");
+                      }
+                    });
+                  </script>
+
             </div>
         </div>
         <div class="rightBottom content">
