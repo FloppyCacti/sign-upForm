@@ -10,3 +10,33 @@ body{
     max-height: 100vh;
     max-width: 100%;
 }
+
+.right{
+    padding-left: 3%;
+}
+
+.signUp{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.firstName,
+.lastName,
+.email,
+.password,
+.confirmPwd,
+.phone-number{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 calc(50% - 10px);
+}
+
+.logIn{
+    display: flex;
+    gap: 5px
+}
+
+.logIn > p,a{
+    margin: 16px 0px;
+}
