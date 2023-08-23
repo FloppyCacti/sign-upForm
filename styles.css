@@ -1,6 +1,42 @@
+@font-face {
+    font-family: 'odin';
+    src: url(./font/Norse-Bold.otf);
+}
+
+:root{
+    --logo-size: 200px;
+}
+
 body{
     height: 100vh;
     margin: 0px;
     background-color: rgb(231, 231, 231);
     display: flex;
+}
+
+.background{
+    height: 100vh;
+}
+
+.logoAndText{
+    display: flex;
+    position: relative;
+    height: var(--logo-size);
+    left: 200px;
+    top: calc(-204px + -800px);
+    gap: 20px;
+}
+
+.logoText{
+    align-self: center;
+    font-size: 100px;
+    color: white;
+    font-family: 'odin';
+}
+
+.logoBackgroundColor{
+    position: relative;
+    background-color:rgba(0, 0, 0, 0.487);
+    height: calc(var(--logo-size) + 50px);
+    top: -775px;
 }
