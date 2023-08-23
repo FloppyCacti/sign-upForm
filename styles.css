@@ -14,15 +14,19 @@ body{
     display: flex;
 }
 
+.content{
+    padding-left: 70px;
+}
+
 .background{
     height: 100vh;
 }
 
 .logoAndText{
     display: flex;
+    justify-content: center;
     position: relative;
     height: var(--logo-size);
-    left: 200px;
     top: calc(-204px + -800px);
     gap: 20px;
 }
@@ -44,6 +48,7 @@ body{
 .right{
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .rightTop,
@@ -54,4 +59,35 @@ body{
 
 .rightMiddle{
     background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+}
+
+.container > h1{
+    margin-top: 0px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.firstName,
+.lastName,
+.email,
+.phonenum,
+.pwd,
+.confirmPwd{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+label{
+    font-size: 13px;
 }
