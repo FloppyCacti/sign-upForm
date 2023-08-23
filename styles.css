@@ -12,6 +12,7 @@ body{
     margin: 0px;
     background-color: rgb(231, 231, 231);
     display: flex;
+    font-family: Roboto;
 }
 
 .content{
@@ -81,6 +82,8 @@ body{
 
 .container > h1{
     margin-top: 0px;
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.757);
 }
 
 form{
@@ -101,11 +104,28 @@ form{
 }
 
 label{
+    color: rgba(0, 0, 0, 0.615);
     font-size: 13px;
+    font-weight: bold;
+}
+
+input{
+    height: 20px;
 }
 
 .rightBottom{
     padding-top: 50px;
+}
+
+.rightBottom > button{
+    background-color : #596D48;
+    border-style: none;
+    border-radius: 5px;
+    width: 12vw;
+    height: 3vh;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .logIn{
@@ -115,4 +135,8 @@ label{
 
 .logIn > a{
     margin: 16px 0px;
+    text-decoration: none;
+    color:#596D48;
+    font-weight: bold;
+    font-family: Roboto;
 }
